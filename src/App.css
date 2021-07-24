@@ -1,38 +1,182 @@
-.App {
-  text-align: center;
+*,
+body,
+html{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link {
+	font-size: 2em;
+	font-family: "Lemon Tuesday", sans-serif;
+	padding: 24px 44px;
+	width: 100vw;
+	background-color: #145C9E;
+	color: #fff;
+	justify-content: space-between;
+	z-index: 100;
+	display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.location{
+	display: flex;
+	align-items: center;
+	height: 10vh;
+	width: 20vw;
+	margin: 10px;
+	justify-content: space-around;
+	left: 10%;
+	position: absolute;
+	font-family: "Muli",sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+	top: 5%;
+	background-color: #39393A;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input{
+	font-family: "Muli", sans-serif;
+	font-size: .6em;
+	background-color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+
+.search-params{
+	background-color: #39393A;
+	margin: 0;
+	padding: 0;
+	height: 80vh;
+	width: 80vw;
+	display: flex;
+	position: absolute;
+	left: 10%;
+	top: 15.5%;
+	border-radius: 20px;
+	border: 2px solid rgba(255, 99, 132, 1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name{
+	color: #fff;
+	height: 10vh;
+	width: 20vw;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Muli",sans-serif;
+	font-size: 1.5em;
+	top: 16%;
+	left: 12%;
+	background-color: #39393A;
+}
+
+
+.temp {
+	color: #fff;
+	height: 10vh;
+	width: 10vw;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Muli",sans-serif;
+	font-size: 1.5em;
+	top: 25%;
+	left: 5%;
+	background-color: #39393A;
+}
+
+.temp-a {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 18%;
+	font-size: 1.5em;
+	font-family: "Muli",sans-serif;
+	background-color: #39393A;
+}
+
+.temp-b{
+	color: #fff;
+	position: absolute;
+	font-size: 1.5em;
+	font-family: "Muli",sans-serif;
+	top: 80%;
+	flex-flow: column wrap;
+	left: 10%;
+	background-color: #39393A;
+}
+.temp-b-1{
+	color: #fff;
+	position: absolute;
+	font-size: 1.5em;
+	font-family: "Muli",sans-serif;
+	top: 65%;
+	flex-flow: column wrap;
+	left: 8.5%;
+	background-color: #39393A;
+}
+
+.temp-c{
+	color: #fff;
+	position: absolute;
+	font-size: 1.5em;
+	font-family: "Muli",sans-serif;
+	top: 80%;
+	flex-flow: column wrap;
+	left: 32%;
+	background-color: #39393A;
+}
+.temp-c-1{
+	color: #fff;
+	position: absolute;
+	font-size: 1.5em;
+	font-family: "Muli",sans-serif;
+	top: 65%;
+	flex-flow: column wrap;
+	left: 31.5%;
+	background-color: #39393A;
+}
+
+.image{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Muli",sans-serif;
+	font-size: 1.5em;
+	top: 28%;
+	left: 18%;
+	background-color: #39393A;
+}
+.chart{
+	display: flex;
+	position: absolute;
+	left: 46%;
+	top: 10%;
+	width: 50%;
+}
+
+.box-card {
+	color: #fff;
+	display: flex;
+	position: absolute;
+	left: 50%;
+	top: 70%;
+	width: 70%;
+	justify-content: space-between;
+	flex-flow: row nowrap;
+	background-color: #145C9E;
+}
+
+.weather-card{
+	display: flex;
+	position: absolute;
+	flex-flow: column;
+	justify-content: space-between;
+	text-align: center;
+	font-size: 1em;
+	font-family: "Muli", sans-serif;
 }
